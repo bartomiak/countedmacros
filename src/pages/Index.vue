@@ -1,33 +1,43 @@
 <template>
   <Layout>
-
-    <!-- Learn how to use images here: https://gridsome.org/docs/images -->
-    <g-image alt="Example image" src="~/favicon.png" width="135" />
-
-    <h1>Hello, world!</h1>
-
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur excepturi labore tempore expedita, et iste tenetur suscipit explicabo! Dolores, aperiam non officia eos quod asperiores
-    </p>
-
-    <p class="home-links">
-      <a href="https://gridsome.org/docs/" target="_blank" rel="noopener">Gridsome Docs</a>
-      <a href="https://github.com/gridsome/gridsome" target="_blank" rel="noopener">GitHub</a>
-    </p>
-
+    <div class="container">
+      <g-image alt="Example image" src="~/assets/images/logo.svg" width="135" />
+      <h1>We are coming soon</h1>
+      <p>We are preparing something amazing and exciting for you.</p>
+    </div>
   </Layout>
 </template>
 
 <script>
 export default {
   metaInfo: {
-    title: 'Hello, world!'
+    title: 'Countedmacros.com'
   }
 }
 </script>
 
-<style>
-.home-links a {
-  margin-right: 1rem;
+<style lang="scss">
+* {
+  font-family: 'DM Sans', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+h1 {
+  font-size: 60px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+p {
+  margin-top: 0;
+  text-align: center;
+  margin-bottom: 0;
 }
 </style>
