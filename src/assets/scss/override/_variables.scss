@@ -1,7 +1,13 @@
+// Colors
 $main-bg: #F0FAF1;
 $secondary-bg: #FFFDF8;
 
+// Bootstrap Colors
+$success: #96f796;
+
+// Radius
 $btn-border-radius: 0;
+$btn-border-radius-lg: $btn-border-radius;
 
 // Breakpoints
 $xs: 0;
@@ -9,4 +15,6 @@ $sm: 576px;
 $md: 768px;
 $lg: 992px;
 $xl: 1200px;
-$xxl: 1400p;
+$xxl: 1400px;
+
+// Fonts
